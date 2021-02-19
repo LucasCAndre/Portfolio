@@ -23,20 +23,17 @@ h1 {
 #fotoLucas {
     width: 150px;
     float: left;
-    padding: 5px;
-    background-color:#656566;
+    padding: 7px;
+    background-color:rgb(199, 199, 199);
     border-radius: 90px;
-}
-
-ol li:nth-child(2n+1):hover {
-    color: rgb(0, 39, 10);
 }
 
 #descricaofoto {
     background-color: rgb(223, 223, 223);
     padding: 50px;
-    margin: 0px 30px 0px 30px;
+    margin: 0px 200px 0px 200px;
     height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 #indice {
@@ -63,24 +60,18 @@ ol li:nth-child(2n+1):hover {
     margin-top: 40px;
 }
 
-a {
-    text-decoration: none;
-}
-
-#ld {
-    color: #414141;
-}
-
-.ldn {
-    margin-top: 100px;
-    width: 100%;
+.footer {
+    margin-top: 50px;
     text-align: center;
-}
-
-#ld:hover {
-    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-color: #DFDFDF;
+    padding: 20px;
 }
 
 .habilidades {
-    margin: 90px 0 0 30px;
+    margin: 90px 0 0 200px;
+}
+
+#ld i {
+    color: rgb(10, 102, 194);
 }
