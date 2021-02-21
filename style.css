@@ -75,3 +75,7 @@ h1 {
 #ld i {
     color: rgb(10, 102, 194);
 }
+
+ul a {
+    text-decoration: none;
+}
